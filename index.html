@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>В корзине: 1 товар</h1>
+  <div class="btn_box">
+    <button class="five"><b>Показать первые 5</b></button>
+    <button class="full"><b>Показать все</b></button>
+    <button class="open_btn"><b>Menu</b></button>
+  </div>
+  <div class="sidebar" id="sidebar">
+    <div class="sidebar-content">
+      <h2><b>Корзина</b></h2>
+      <button class="clouse"><i class="fa-sharp fa-solid fa-xmark"></i></button>
+      <hr>
+      <div class="item-container">
+        <img src="./img/e13cb17b05e17e3399f5950838a20d3a-removebg-preview.png" alt="">
+        <div>
+          <p class="Cozy">Cozy Blanket</p>
+          <div class="controls">
+            <div>-</div>
+            <span id="quantity">1</span>
+            <div>+</div>
+          </div>
+        </div>
+        <div>
+          <p><span id="price">$29,99</span></p>
+          <button class="rem"><span>Remove</span></button>
+        </div>
+      </div>
+
+      <div class="all">
+        <p>Общая цена</p>
+        <p>0,00$</p>
+      </div>
+      <div class="oform">
+        <p>Oформить</p>
+      </div>
+
+    </div>
+  </div>
+  <div class="container"></div>
+
+  <script src="./lib/db.js"></script>
+  <script src="./components/produck.js"></script>
+  <script src="./lib/utils.js"></script>
+  <script src="./csript.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+
+
+}
+
+
+h1 {
+    font-size: 48px;
+    padding: 35px;
+    text-align: center;
+}
+
+.btn_box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    button {
+        width: 254px;
+        height: 55px;
+        border-radius: 10px;
+        border: 1px solid #000;
+        background-color: white;
+    }
+}
+
+.things_box {
+    margin-top: 50px;
+    border: 1px solid #000;
+}
+
+
+.img_box {
+    height: 190px;
+
+    img {
+        padding: 30px 120px;
+    }
+}
+
+.text_box {
+    margin-top: 103px;
+    background-color: black;
+    height: 300px;
+
+    span {
+        font-size: 25px;
+        font-weight: 600;
+        color: white;
+        padding: 30px;
+        padding-top: 30px;
+    }
+
+    p {
+        color: white;
+        font-size: 14px;
+        color: #c4c4c4;
+        font-weight: 600;
+        padding: 18px 0 0 30px;
+    }
+
+}
+
+.mony_box {
+    margin-top: 20px;
+    display: flex;
+
+}
+
+.group_box {
+    display: flex;
+    margin-bottom: 50px;
+
+    p {
+        font-size: 20px;
+        font-weight: 400;
+        color: white;
+    }
+
+    img {
+        position: relative;
+        top: 10px;
+        left: 27px;
+    }
+}
+
+button {
+    width: 305px;
+    height: 55px;
+    margin: 0 0 0 20px;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -600px;
+    width: 600px;
+    height: 100%;
+    background-color: #f0f0f0;
+    transition: right 0.9s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+.sidebar.open {
+    right: 0;
+}
+
+.sidebar-content {
+    padding: 20px;
+
+
+    h2 {
+        text-align: start;
+        font-size: 30px;
+        font-weight: 400;
+        padding: 5px;
+    }
+
+
+
+    hr {
+        position: relative;
+        top: -20px;
+    }
+}
+
+.clouse {
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    position: relative;
+    left: 500px;
+    top: -30px;
+    border: none;
+    background-color: #f0f0f0;
+}
+
+.open-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+.blanket {
+    width: 500px;
+    height: 100px;
+    -webkit-box-shadow: 4px 4px 41px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px 4px 41px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px 4px 41px -5px rgba(0, 0, 0, 0.75);
+
+    img {
+        max-width: 23%;
+
+    }
+
+    p {
+        font-size: 20px;
+        position: relative;
+        top: -100px;
+        left: 100px;
+    }
+
+}
+
+.item-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.item-container img {
+    max-width: 100px;
+    margin-right: 10px;
+}
+
+.item-container p {
+    margin: 0;
+
+}
+
+.Cozy {
+    font-size: 24px;
+    position: relative;
+    left: -120px;
+}
+
+.item-container .controls {
+    position: relative;
+    left: -120px;
+    top: 10px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+
+
+}
+
+.item-container .controls div {
+    font-size: 25px;
+    margin-left: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #fff;
+  
+}
+
+.rem {
+    position: relative;
+    background-color: #ccc;
+    top: 10px;
+    right: 23px;
+    width: 80px;
+    height: 40px;
+}
+
+.all {
+    background-color: #c4c4c4;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    margin-top: 500px;
+    border-radius: 10px;
+}
+
+.oform {
+    font-size: 30px;
+    margin-top: 20px;
+    background-color: #ccc;
+    border-radius: 10px;
+} 
